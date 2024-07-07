@@ -1,0 +1,50 @@
+main{
+    border: 5px solid black;
+    height: 100%;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 5%;
+    border-radius: 5px;
+    background-color: rgb(250, 201, 109);
+}
+
+img{
+    height: 100px;
+    margin-top: 10px;
+}
+
+#boton{
+    border-radius: 5px;
+    background-color: rgb(220, 157, 79);
+    font-size: 20px;
+    margin: 20px;
+    font-family: sans-serif;
+}
+
+#titulo{
+    font-size: 50px;
+}
+
+h1{
+    text-align: center;
+}
+
+body{
+    text-align: center;
+    
+}
+
+.ingresar{
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.textito{
+    font-size: 20px;
+}
+
+footer{
+    font-size: 20px;
+}

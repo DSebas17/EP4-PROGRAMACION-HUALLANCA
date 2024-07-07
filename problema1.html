@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1</title>
+    <link rel="stylesheet" href="estilo.css">
+
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <main>
+     
+    <img src="IMG/logo.png" alt="ISIL LOGO">
+
+     <h3 id="problema">1.	Utilizando el bucle do while: Ingresar 2 números y mostrar el cubo de todos los números impares comprendidos entre ellos inclusive.” </h3>
+
+
+     <div id="resolucion">
+
+
+    <script>
+
+        numero1=parseInt(prompt("Ingresa el 1er número"));
+        numero2=parseInt(prompt("Ingresa el 2do número"));
+
+        if (numero1>numero2) {
+            let temp= numero1;
+            numero1=numero2;
+            numero2=temp;
+        }
+
+        let i=numero1;
+
+        do {
+            if (i % 2 !== 0) {
+                let cubo= i*i*i;
+                document.write("El cubo de " +i+ " es: " +cubo+ "<br>")
+            }
+            i++;
+        } while (i<=numero2);
+
+
+
+    </script>
+    
+    </div>
+    
+    <footer>
+        <h4>Sebastian Huallanca Cabrera / Evaluacion Permanente 4 / Introduccion a la Programación</h4>
+    </footer>
+
+    </main>
+    
+</body>
+</html>
